@@ -1,1 +1,46 @@
 /* write down the css for Carousel in this file */
+
+
+  
+  body {
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    padding: 0 15px;
+  }
+  
+  img{
+    width: 30vw;
+    height: 80vh;
+  }
+  
+  .title{
+    position: absolute;
+    top: 20vh;
+    background-color: rgba(221, 201, 201, 0.5);
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .subtitle{
+    position: absolute;
+    top: 60vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
+  .button{
+    font-size: xx-large;
+  }
+  
+  .button:hover{
+    transform: scale(2);
+  }
